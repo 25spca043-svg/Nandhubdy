@@ -23,6 +23,10 @@ const SITE_CONFIG = {
         signature: '- Your Shanmu'
     }
 };
+document.body.addEventListener("click", function () {
+    document.getElementById("bgMusic").play();
+});
+
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Particle Background System
     const particlesContainer = document.getElementById('particles');
