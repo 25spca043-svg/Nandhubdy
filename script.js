@@ -69,9 +69,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             card.innerHTML = `
                 <img src="${item.src}" alt="Memory ${index + 1}" style="opacity: 0; transition: opacity 0.5s ease;">
-                <div class="gallery-overlay">
-                    <span>${item.caption}</span>
-                </div>
             `;
 
             // Add loading effect
